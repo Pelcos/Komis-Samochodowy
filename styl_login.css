@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+}
+
+@keyframes loginanimacja {
+    from {background-color: rgb(0, 0, 0);}
+    to {background-color: rgb(58, 58, 58);}
+    from {margin-top: -25%;}
+    to {margin-top: 10%;}
+
+  }
+@keyframes zaloguj_hover {
+ from {width: 30%;
+    height: 20%;}
+
+ to {  width: 33%;
+    height: 22%;}
+
+to {    background-color: #dadada;     border-radius: 12% ;     color: #000000;
+
+
+} 
+
+}
+#login {
+    background-image: url("images/loginimage.png");
+    background-size: 100%;
+    background-color: rgb(58, 58, 58);
+
+    width: 40%;
+    height: 45%;
+    border: 10px;
+    margin: auto;
+    margin-top: 10%;
+    border: 5px solid #363e52; 
+    border-inline: 10px;
+    padding: 10px;
+    border-radius: 70px;
+
+    animation-name: loginanimacja;
+    animation-duration: 3s;
+    
+}
+
+#userpass {
+    margin: auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: 30%;
+    margin-top: 5%;
+    vertical-align: middle;
+    height: 50%;
+    width: 50%;
+   /* border: #00b7ff solid 10px; */
+    color: #fafafa;
+    text-shadow: #888888;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+}
+#zaloguj {
+    background-color: #888888;
+    color: #fafafa;
+    width: 30%;
+    height: 20%;
+    border-radius: 10%;
+    
+}
+#zaloguj:hover {
+
+    animation-name: zaloguj_hover;
+    animation-duration: 1s;
+
+}
+
+#zaloguj:active {
+    
+
+}
